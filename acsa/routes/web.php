@@ -12,11 +12,20 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('home');
 });
 Route::get('/welcome', function () {
     return view('home');
 });
-Route::get('/login', function () {
+Route::get('/loginalumno', function () {
     return view('login');
+});
+Route::get('/loginprofesor', function () {
+    return view('loginProfesor');
+});
+Route::get('/admin', function () {
+    return view('loginAdmin');
+});
+Route::get('/panel', function () {
+    return view('panelControl');
 });

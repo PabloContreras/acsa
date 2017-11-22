@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ACSA | Log in</title>
+    <title>ACSA | Log in Administrador</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -45,8 +45,8 @@
 
             
             <div class="col-lg-4 col-lg-offset-4">
-              <a href="/" ><button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button>
-              <br></a>
+              <a href="/panel"><button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button>
+              <br>
               <a href="/" ><button type="submit" class="btn btn-primary btn-block btn-flat">Regresar</button></a> 
             </div><!-- /.col -->
           </div>
