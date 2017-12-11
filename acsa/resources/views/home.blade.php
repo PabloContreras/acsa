@@ -32,21 +32,21 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <!--<a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>-->
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <!--<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#download">Download</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#features">Features</a>
-            </li>
+            </li>-->
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#">Contacto</a>
             </li>
           </ul>
         </div>
@@ -58,13 +58,15 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5">Te pasaste de verga Contreras!</h1>
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+              <h1 class="mb-5">¿Estás listo para la mejor experiencia web de tu vida? ¡Estás listo para ACSA!</h1>
+              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Iniciar</a>  
+              <a href="/entrada" class="btn btn-outline btn-xl js-scroll-trigger">Entrada</a>
+              <a href="/salida" class="btn btn-outline btn-xl js-scroll-trigger">Salida</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
+              <div class="device-mockup iphone6_plus">
                 <div class="device">
                   <div class="screen">
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
@@ -84,12 +86,18 @@
     <section class="download bg-primary text-center" id="download">
       <div class="container">
         <div class="row">
+        
           <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Discover what all the buzz is about!</h2>
-            <p>Our app is available on any mobile device! Download now to get started!</p>
-            <div class="badges">
-              <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-              <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
+            <div class>
+          <h1 class="mb-5">¡Me quiero registrar!</h1>
+              <a href="/RegistroAdministrador" class="btn btn-outline btn-xl js-scroll-trigger">Registro</a>
+        </div>
+        <br>
+            <div class="header-content mx-auto">
+              <h1 class="mb-5">Soy:</h1>
+              <a href="/admin" class="btn btn-outline btn-xl js-scroll-trigger">Administrador</a>
+              <a href="/loginprofesor" class="btn btn-outline btn-xl js-scroll-trigger">Maestro</a>
+              <a href="/loginalumno" class="btn btn-outline btn-xl js-scroll-trigger">Alumno</a>
             </div>
           </div>
         </div>
@@ -100,7 +108,7 @@
 
     <footer class="footer">
       <div class="container-fluid">
-        &copy; <script>document.write(new Date().getFullYear())</script> Hecho con <i class="glyphicon glyphicon-heart" aria-hidden="true"></i> por <a href="">INNOVA Soft</a>
+        &copy; <script>document.write(new Date().getFullYear())</script> Hecho con <i class="fa fa-heart" aria-hidden="true"></i> por <a href="">INNOVA Soft</a>
       </div>
     </footer>
 

@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ACSA | Log in Profesor</title>
-    <!-- Tell the browser to be responsive to screen width -->
+    <title>ACSA | Registro Escuela</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -27,35 +26,45 @@
   <body class="hold-transition login-page">
     <div class="login-box">
       <div class="login-logo">
-        <a href="#"><b>ACSA</b></a>
+        <a href="#"><b>ACSA </b></a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
-        <p class="login-box-msg">Ingrese sus datos</p>
-        
-          <div class="form-group has-feedback">
-            <input type="text" class="form-control" placeholder="Usuario">
-            <span class="glyphicon glyphicon-user form-control-feedback"></span>
-          </div>
-          <div class="form-group has-feedback">
-            <input type="password" class="form-control" placeholder="Contraseña">
-            <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-          </div>
-         
-          <div class="row">       
 
-            
-            <div class="col-lg-4 col-lg-offset-4">
-              <a href="/panelMaestro"><button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button></a>
-              <br>
-              <a href="/" ><button type="submit" class="btn btn-primary btn-block btn-flat">Regresar</button></a> 
-            </div><!-- /.col -->
-          </div>
-        </form>
+	<form>
+  <fieldset>
+    <center><legend>Proporcionanos tus datos</legend></center>
+    <div class="form-group col-lg-10 col-lg-offset-2">
+      <div class="form-group">
+      <label for="exampleInputEmail1">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">
+      <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo con nadie.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Número de tarjeta de cŕedito</label>
+      <input type="password" class="form-control" id="tarjeta" placeholder="Número de Tarjeta de crédito">
+      <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu cuenta con nadie.</small>
+    </div>    
+    <div class="form-group">
+      <label>CCV</label>
+      <input type="Número" class="form-control" id="CCV" placeholder="***">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Fecha de Vencimiento</label>
+      <input type="Date" class="form-control" id="exampleInputPassword1" placeholder="Número de Tarjeta de crédito">
+    </div>
+    <div>
+    <label>Al hacer click en "aceptar" estás de acuerdo con nuestra política de <b>términos y condiciones<b></label>
+    <br><br>
+    <label>Se te enviará un correo de confirmación con tu contraseña para que puedas comenzar a hacer uso de <b>ACSA<b></label>
+    </div>
 
-     
-       
+    <center><a href="/" button type="submit" class="btn btn-primary">Aceptar</a>
+    <a href="/" button type="submit" class="btn btn-primary">Regresar</a></center>
+    </div>
+  </fieldset>
+</form>
 
-      </div><!-- /.login-box-body -->
+	 </div><!-- /.login-box-body -->
     </div><!-- /.login-box -->
 
     <!-- jQuery 2.1.4 -->
@@ -73,8 +82,7 @@
         });
       });
     </script>
-
-    <footer class="footer">
+       <footer class="footer">
       <div class="container-fluid">
         &copy; <script>document.write(new Date().getFullYear())</script> Hecho con <i class="glyphicon glyphicon-heart" aria-hidden="true"></i> por <a href="">INNOVA Soft</a>
       </div>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ACSA | Panel Control</title>
+    <title>ACSA | Panel Alumno</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -42,11 +42,12 @@
 
       <header class="main-header">
         <!-- Logo -->
-        <a href="index2.html" class="logo">
+        <a href="#" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>A</b>LT</span>
+          <!--<span class="logo-mini"><b>asfafgsdafjksdnfas</b>LT</span>
           <!-- logo for regular state and mobile devices -->
-          <div class="pull-right image">
+         <!-- <span class="logo-lg">ACSA</span><br>-->
+         <div class="pull-right image">
               <img src="dist/img/logo.png" class="logo" alt="logo">
             </div>
 
@@ -302,10 +303,10 @@
           <!-- Sidebar user panel -->
           <div class="user-panel">
             <div class="pull-left image">
-              <img src="dist/img/avatar5.png" class="img-circle" alt="User Image">
+              <img src="dist/img/avatar.png" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
-              <p>Admin</p>
+              <p>Alumno</p>
               
             </div>
           </div>
@@ -330,10 +331,10 @@
                 <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
               </ul>-->
             </li>
-            <li class>
-              <a href="RegistrarEscuela">
+            <!--<li class>
+              <a href="RegistrarAlumnoProfesor">
                 <span class="glyphicon glyphicon-file"></span>
-                <span>Registrar Escuela</span>
+                <span>Registrar Alumno</span>
               </a>
               <!--<ul class="treeview-menu">
                 <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
@@ -341,7 +342,7 @@
                 <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
                 <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
               </ul>-->
-            </li>
+            <!--</li>
             <li>
               <a href="RegistrarProfesor">
                 <span class="glyphicon glyphicon-user"></span> 
@@ -360,8 +361,8 @@
                 <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
               </ul>-->
             </li>
-            <li class>
-              <a href="RegistrarSala">
+           <!-- <li class>
+              <a href="RegistrarSalaProfesor">
                 <i class="fa fa-laptop"></i>
                 <span>Registrar Sala</span>
               </a>
@@ -373,7 +374,7 @@
                 <li><a href="pages/UI/timeline.html"><i class="fa fa-circle-o"></i> Timeline</a></li>
                 <li><a href="pages/UI/modals.html"><i class="fa fa-circle-o"></i> Modals</a></li>
               </ul>-->
-            </li>
+            <!--</li>
             <li class>
               <a href="RegistrarAlumno">
                 <i class="fa fa-user-plus" aria-hidden="true"></i> <span>Registrar Alumno</span>
@@ -383,7 +384,7 @@
                 <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
                 <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
               </ul>-->
-            </li>
+            <!--</li>
             <!--<li class="treeview">
               <a href="#">
                 <i class="fa fa-table"></i> <span>Tables</span>
@@ -476,8 +477,8 @@
               <!-- small box -->
               <div class="small-box bg-aqua">
                 <div class="inner">
-                  <h3>150</h3>
-                  <p>Número de Alumnos</p>
+                  <h3>4</h3>
+                  <p>Modulos cursados</p>
                 </div>
                 <div class="icon">
                   <i class="ion ion-bag"></i>
@@ -489,8 +490,8 @@
               <!-- small box -->
               <div class="small-box bg-green">
                 <div class="inner">
-                  <h3>53<sup style="font-size: 20px">%</sup></h3>
-                  <p>Alumnos que cumplen</p>
+                  <h3>20<sup style="font-size: 20px">%</sup></h3>
+                  <p>Créditos</p>
                 </div>
                 <div class="icon">
                   <i class="ion ion-stats-bars"></i>
@@ -502,8 +503,8 @@
               <!-- small box -->
               <div class="small-box bg-yellow">
                 <div class="inner">
-                  <h3>10</h3>
-                  <p>Número de profesores</p>
+                  <h3>3</h3>
+                  <p>Número de actividades</p>
                 </div>
                 <div class="icon">
                   <i class="ion ion-person-add"></i>
@@ -515,8 +516,8 @@
               <!-- small box -->
               <div class="small-box bg-red">
                 <div class="inner">
-                  <h3>3</h3>
-                  <p>Salas de autoacceso</p>
+                  <h3>2</h3>
+                  <p>Salas a las que puedes accesar</p>
                 </div>
                 <div class="icon">
                   <i class="ion ion-pie-graph"></i>
@@ -795,7 +796,7 @@
               <div class="box box-solid bg-teal-gradient">
                 <div class="box-header">
                   <i class="fa fa-th"></i>
-                  <h3 class="box-title">Alumnos que cumplen</h3>
+                  <h3 class="box-title">Porcentaje por servicio cumplido</h3>
                   <div class="box-tools pull-right">
                     <button class="btn bg-teal btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
                     <button class="btn bg-teal btn-sm" data-widget="remove"><i class="fa fa-times"></i></button>

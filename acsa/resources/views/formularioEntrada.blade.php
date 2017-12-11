@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ACSA | Log in Profesor</title>
-    <!-- Tell the browser to be responsive to screen width -->
+    <title>ACSA | Registro Entrada </title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -22,7 +21,20 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
     <![endif]-->
+    <script> 
+        
+        function openWin() {
+          myWindow = window.open("/popupEntrada","popupEntrada","top=350,left=200,width=400,height=300");
+        }
+
+        function closeWin() {
+        myWindow.close();
+        }
+    </script>
+
+
   </head>
   <body class="hold-transition login-page">
     <div class="login-box">
@@ -36,26 +48,30 @@
             <input type="text" class="form-control" placeholder="Usuario">
             <span class="glyphicon glyphicon-user form-control-feedback"></span>
           </div>
-          <div class="form-group has-feedback">
-            <input type="password" class="form-control" placeholder="Contraseña">
-            <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-          </div>
-         
+          <center><div class="form-group">
+            <select>
+              <option value="1">Libros</option>
+              <option value="2">Películas</option>
+              <option value="3">Computadora</option>
+            </select>
+          </div></center>
           <div class="row">       
 
             
             <div class="col-lg-4 col-lg-offset-4">
-              <a href="/panelMaestro"><button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button></a>
+              <!--<a href="/"><button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button>-->
+              <button onclick="openWin()" class="btn btn-primary btn-block btn-flat">Ingresar</button>
               <br>
-              <a href="/" ><button type="submit" class="btn btn-primary btn-block btn-flat">Regresar</button></a> 
+              <button onclick="closeWin()" href="/" type="submit" class="btn btn-primary btn-block btn-flat">Cerrar</button>
+              <br>
+              <a href="/" ><button type="submit" class="btn btn-primary btn-block btn-flat">Regresar</button></a>
+
+
             </div><!-- /.col -->
+
           </div>
         </form>
-
-     
-       
-
-      </div><!-- /.login-box-body -->
+    </div><!-- /.login-box-body -->
     </div><!-- /.login-box -->
 
     <!-- jQuery 2.1.4 -->
@@ -73,6 +89,7 @@
         });
       });
     </script>
+    
 
     <footer class="footer">
       <div class="container-fluid">
