@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('home');
 });
 Route::get('/welcome', function () {
-    return view('home');
+    return view('welcome');
 });
 Route::get('/loginalumno', function () {
     return view('login');
@@ -70,4 +70,10 @@ Route::get('/popupEntrada', function () {
    });
 Route::get('/popupSalida', function () {
     return view('popupSalida');
+   });
+Route::get('/politica', function () {
+    return view('piliticaprivacidad');
+   });
+Route::get('/terminos', function () {
+    return view('terminos');
    });
